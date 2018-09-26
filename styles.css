@@ -1,0 +1,83 @@
+.row.vdivide [class*='col-']:not(:last-child):after {
+  background: #e0e0e0;
+  width: 1px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+
+}
+
+.navbar {
+    top: 0px;
+    width: 100%;
+    height: 80px;
+}
+
+nav ul {
+    font-family: 'Domine', serif;
+}
+
+.part {
+    border-left: 2px solid #bbb;
+    letter-spacing: 10px;;
+}
+
+.push_left {
+  margin-left: 50px;
+}
+
+.a {
+  margin-right: 250px;
+}
+
+.b {
+  margin-left: 100px;
+}
+
+.c {
+  margin-left: 30px;
+}
+
+#rest {
+    background-image : url("images/rest2.jpg");
+    background-attachment : fixed;
+    background-size : cover;
+    color : white;
+    padding-top : 150px;
+    padding-bottom: 50px;
+    height: 800px;
+}
+
+h2 {
+  font-family: 'Domine', serif;
+}
+
+.center {
+  text-align: center;
+  margin-left: 500px;
+}
+
+.block {
+  display: block;
+}
+
+.menu {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+#Contact {
+  display: inline;
+}
